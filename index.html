@@ -42,7 +42,7 @@
 
         // Get URL parameters
         const urlParams = new URLSearchParams(window.location.search);
-        const name = urlParams.get('name') || 'John Doe';
+        const name = urlParams.get('name') || 'Full Name';
         const date = urlParams.get('date') || new Date().toLocaleDateString();
         const imageUrl = urlParams.get('image') || '/api/placeholder/150/150';
 
